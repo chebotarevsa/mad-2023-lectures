@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Азот: "
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/viewM1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="78,084%"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="@+id/view1"
+        app:layout_constraintStart_toEndOf="@+id/barrier1"
+        />
+
+    <TextView
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Кислород:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view1" />
+
+    <TextView
+        android:id="@+id/viewM2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20,94764%"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        app:layout_constraintStart_toEndOf="@+id/barrier1"
+        />
+
+    <TextView
+        android:id="@+id/view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Аргон:"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/view2"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/viewM3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0,934%"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintStart_toEndOf="@+id/barrier1"
+        />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier1"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        app:barrierDirection="end"
+        app:barrierMargin="20dp"
+        app:constraint_referenced_ids="view1,view2,view3"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
