@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <!--Declaring the required permissions-->
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
 
     <application
         android:allowBackup="true"
@@ -12,31 +13,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ViewElement"
+        android:theme="@style/Theme.Lifecycle"
         tools:targetApi="31">
         <activity
-            android:name=".TextViewActivity"
+            android:name=".SecondActivity"
             android:exported="false" />
         <activity
-            android:name=".CheckBoxActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EditTextViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ButtonActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ImageViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".TextViewBindingActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ProgressBarActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RadioButtonActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
