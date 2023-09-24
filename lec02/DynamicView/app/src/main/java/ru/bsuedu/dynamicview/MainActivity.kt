@@ -2,6 +2,7 @@ package ru.bsuedu.dynamicview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.Gravity
 import android.view.ViewGroup
 import android.widget.LinearLayout
@@ -29,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         textView.id = R.id.text
         textView.setTextColor(resources.getColor(R.color.black, theme))
         textView.text = resources.getText(R.string.hello_world)
-        textView.textSize = resources.getDimension(R.dimen.text_size)
+        textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, resources.getDimension(R.dimen.text_size))
 
         linearLayout.addView(textView)
 
