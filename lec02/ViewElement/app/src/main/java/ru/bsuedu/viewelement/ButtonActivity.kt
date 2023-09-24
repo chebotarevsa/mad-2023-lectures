@@ -6,7 +6,7 @@ import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import ru.bsuedu.viewelement.databinding.ActivityButtonBinding
-
+//04
 class ButtonActivity : AppCompatActivity() {
     private lateinit var binding: ActivityButtonBinding
     override fun onCreate(savedInstanceState: Bundle?) {

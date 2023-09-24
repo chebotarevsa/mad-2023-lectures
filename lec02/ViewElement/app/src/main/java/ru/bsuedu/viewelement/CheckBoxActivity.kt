@@ -8,7 +8,7 @@ import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import ru.bsuedu.viewelement.databinding.ActivityCheckBoxBinding
-
+//06
 class CheckBoxActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCheckBoxBinding
     private var isCategoryNeed = false

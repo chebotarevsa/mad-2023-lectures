@@ -4,9 +4,9 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
-
+// 01
 class TextViewActivity : AppCompatActivity() {
-    lateinit var textView: TextView
+    private lateinit var textView: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

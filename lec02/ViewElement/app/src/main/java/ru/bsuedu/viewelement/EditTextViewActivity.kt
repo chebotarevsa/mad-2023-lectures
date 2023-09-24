@@ -6,7 +6,7 @@ import android.widget.Toast
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import ru.bsuedu.viewelement.databinding.ActivityEditTextViewBinding
-
+//05
 class EditTextViewActivity : AppCompatActivity() {
     private lateinit var binding: ActivityEditTextViewBinding
     override fun onCreate(savedInstanceState: Bundle?) {

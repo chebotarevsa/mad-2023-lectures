@@ -3,7 +3,7 @@ package ru.bsuedu.viewelement
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import ru.bsuedu.viewelement.databinding.ActivityImageViewBinding
-
+//03
 class ImageViewActivity : AppCompatActivity() {
     private lateinit var binding: ActivityImageViewBinding
     override fun onCreate(savedInstanceState: Bundle?) {

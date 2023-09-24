@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import ru.bsuedu.viewelement.databinding.ActivityTextViewBindingBinding
-
+// 02
 class TextViewBindingActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityTextViewBindingBinding
