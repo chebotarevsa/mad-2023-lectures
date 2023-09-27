@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Navigation</string>
+    <string name="explicit_intents">Explicit Intents</string>
+    <string name="implicit_intents">Implicit Intents</string>
+    <string name="system_intents">System Intents</string>
+    <string name="result_intent">Result Intent</string>
+    <string name="enter">Enter</string>
+    <string name="contract_intent">Contract Intent</string>
+</resources>
