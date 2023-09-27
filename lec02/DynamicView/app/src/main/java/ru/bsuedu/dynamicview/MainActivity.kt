@@ -11,6 +11,7 @@ import android.widget.TextView
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         // View Group
         val linearLayout = LinearLayout(this)
         val linearLayoutParams =

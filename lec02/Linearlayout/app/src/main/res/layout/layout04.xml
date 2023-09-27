@@ -13,7 +13,7 @@
         android:layout_height="0dp"
         android:layout_gravity="start"
         android:layout_weight="1"
-        android:textSize="20sp"
+        android:textSize="@dimen/h_size"
         android:background="@android:color/holo_green_light"
         android:text="@string/hello_world" />
 
