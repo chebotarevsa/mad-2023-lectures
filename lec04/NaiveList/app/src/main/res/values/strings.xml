@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NaiveList</string>
+    <string name="the_most_naive_list">The Most Naive List</string>
+    <string name="delete_icon">Delete icon</string>
+    <string name="simple_naive_list">Simple Naive List</string>
+    <string name="simple_naive_list_with_delete">Simple Naive List With Delete</string>
+    <string name="add">Add</string>
+    <string name="simple_naive_list_with_add">Simple Naive List With Add</string>
+</resources>
