@@ -20,7 +20,6 @@ class SimpleNaiveListWithDeleteActivity : AppCompatActivity() {
         buildList(listContainer, R.layout.item_view, R.id.tv_item_text, ItemRepository.data)
     }
 
-
     private fun buildList(
         parent: ViewGroup,
         resource: Int,
