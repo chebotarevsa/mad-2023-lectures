@@ -15,28 +15,28 @@
         android:theme="@style/Theme.ViewElement"
         tools:targetApi="31">
         <activity
-            android:name=".TextViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CheckBoxActivity"
-            android:exported="false" />
-        <activity
             android:name=".EditTextViewActivity"
             android:exported="false" />
         <activity
             android:name=".ButtonActivity"
             android:exported="false" />
         <activity
+            android:name=".CheckBoxActivity"
+            android:exported="false" />
+        <activity
             android:name=".ImageViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TextViewActivity"
             android:exported="false" />
         <activity
             android:name=".TextViewBindingActivity"
             android:exported="false" />
         <activity
-            android:name=".ProgressBarActivity"
+            android:name=".RadioButtonActivity"
             android:exported="false" />
         <activity
-            android:name=".RadioButtonActivity"
+            android:name=".ProgressBarActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

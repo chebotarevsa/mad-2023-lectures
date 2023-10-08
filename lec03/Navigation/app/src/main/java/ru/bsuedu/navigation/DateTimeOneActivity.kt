@@ -12,6 +12,6 @@ class DateTimeOneActivity : AppCompatActivity() {
         binding = ActivityDateTimeOneBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.textView2.text = intent.extras?.getString("TEST")
+        binding.textView2.text = intent.extras?.getString(EXTRAS_DATE_TIME)
     }
 }

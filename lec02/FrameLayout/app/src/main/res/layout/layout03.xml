@@ -21,10 +21,10 @@
         android:text="Hello World!" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="40dp"
         android:layout_height="wrap_content"
         android:background="@android:color/holo_green_light"
-        android:text="Hello World!"
+        android:text="Hello World! qewqeqw eqwe"
         android:textSize="20sp" />
 
 </FrameLayout>

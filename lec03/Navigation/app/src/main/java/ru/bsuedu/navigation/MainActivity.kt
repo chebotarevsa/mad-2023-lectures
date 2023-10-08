@@ -25,8 +25,9 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent().apply {
                 setClass(this@MainActivity, DateTimeActivity::class.java)
                 replaceExtras(bundleOf(EXTRAS_DATE_TIME to dateAsText))
+                //putExtra(EXTRAS_DATE_TIME, dateAsText)
             }
-            startActivity(DateTimeActivity.createIntent(this, Date()))
+            startActivity(intent)
         }
 
         // Неявный Intent
