@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ListView</string>
+    <string name="array_adapter">Array Adapter</string>
+    <string name="simple_adapter">Simple Adapter</string>
+    <string name="custom_array_adapter">Custom Array Adapter</string>
+    <string name="base_adapter">Base Adapter</string>
 </resources>

@@ -4,15 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/bn_simple_adapter"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/simple_adapter"
+        app:layout_constraintBottom_toTopOf="@+id/bn_array_adapter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <Button
+        android:id="@+id/bn_array_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/array_adapter"
+        app:layout_constraintBottom_toTopOf="@+id/bn_custom_array_adapter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bn_simple_adapter" />
+
+    <Button
+        android:id="@+id/bn_custom_array_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_array_adapter"
+        app:layout_constraintBottom_toTopOf="@+id/bn_base_adapter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bn_array_adapter" />
+
+    <Button
+        android:id="@+id/bn_base_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/base_adapter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/bn_custom_array_adapter" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
