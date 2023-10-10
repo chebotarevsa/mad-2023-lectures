@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         Log.d(TAG, "onCreate $savedInstanceState")
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -32,19 +33,14 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.d(TAG, "onDestroy")
-    }
-
     override fun onStart() {
         super.onStart()
         Log.d(TAG, "onStart")
     }
 
-    override fun onStop() {
-        super.onStop()
-        Log.d(TAG, "onStop")
+    override fun onResume() {
+        super.onResume()
+        Log.d(TAG, "onResume")
     }
 
     override fun onPause() {
@@ -53,9 +49,15 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    override fun onResume() {
-        super.onResume()
-        Log.d(TAG, "onResume")
+
+    override fun onStop() {
+        super.onStop()
+        Log.d(TAG, "onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d(TAG, "onDestroy")
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
@@ -66,6 +68,5 @@ class MainActivity : AppCompatActivity() {
     companion object {
         val TAG = MainActivity::class.simpleName
     }
-
 
 }
