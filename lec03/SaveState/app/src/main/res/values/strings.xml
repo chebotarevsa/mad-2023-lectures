@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">SaveState</string>
     <string name="add">Add</string>
+    <string name="next">Next</string>
+    <string name="without_save_state">Without Save State</string>
+    <string name="with_save_state">With Save State</string>
 </resources>

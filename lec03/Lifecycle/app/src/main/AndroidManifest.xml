@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
-    <!--Declaring the required permissions-->
+    <!-- Declaring the required permissions -->
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
 
     <application
@@ -15,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Lifecycle"
         tools:targetApi="31">
+        <activity
+            android:name=".EmptyActivity"
+            android:exported="false" />
         <activity
             android:name=".SecondActivity"
             android:exported="false" />

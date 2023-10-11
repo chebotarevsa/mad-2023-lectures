@@ -21,15 +21,19 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.startSecond.setOnClickListener {
+        binding.bnStartSecond.setOnClickListener {
             startActivity(SecondActivity.createIntent(this))
         }
-        binding.startTransparency.setOnClickListener {
+        binding.bnStartTransparency.setOnClickListener {
             ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.WRITE_CALENDAR),0 )
         }
 
-        binding.collapse.setOnClickListener {
+        binding.bnCollapse.setOnClickListener {
             moveTaskToBack(false)
+        }
+
+        binding.bnFinish.setOnClickListener {
+            finish()
         }
     }
 
@@ -48,11 +52,14 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onPause")
     }
 
-
-
     override fun onStop() {
         super.onStop()
         Log.d(TAG, "onStop")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d(TAG, "onRestart")
     }
 
     override fun onDestroy() {
@@ -68,5 +75,4 @@ class MainActivity : AppCompatActivity() {
     companion object {
         val TAG = MainActivity::class.simpleName
     }
-
 }

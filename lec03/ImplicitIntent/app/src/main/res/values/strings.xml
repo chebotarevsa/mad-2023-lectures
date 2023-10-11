@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImplicitIntent</string>
+    <string name="send_message">Send message</string>
+    <string name="get_contact">Get Contact</string>
+</resources>

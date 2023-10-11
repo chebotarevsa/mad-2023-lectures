@@ -2,14 +2,18 @@ package ru.bsuedu.navigation
 
 import android.content.Intent
 import android.content.Intent.ACTION_SEND
+import android.content.Intent.FLAG_ACTIVITY_CLEAR_TASK
+import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.os.Bundle
-import android.util.Log
+import android.provider.MediaStore
 import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
+import ru.bsuedu.navigation.contract.DateTimeContract
 import ru.bsuedu.navigation.databinding.ActivityMainBinding
 import java.util.Date
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,60 +22,78 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         val dateAsText = Date().toString()
 
         // Явный Intent
         binding.exButton.setOnClickListener {
-            val intent = Intent().apply {
+            Intent().apply {
                 setClass(this@MainActivity, DateTimeActivity::class.java)
-                replaceExtras(bundleOf(EXTRAS_DATE_TIME to dateAsText))
-                //putExtra(EXTRAS_DATE_TIME, dateAsText)
+                putExtra(EXTRAS_DATE_TIME, dateAsText)
+               // flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            }.also {
+                startActivity(it)
             }
-            startActivity(intent)
+
         }
 
         // Неявный Intent
         binding.imButton.setOnClickListener {
-            val intent = Intent().apply {
+            Intent().apply {
                 action = ACTION_SHOW_DATE
                 addCategory(Intent.CATEGORY_DEFAULT)
-                replaceExtras(bundleOf(EXTRAS_DATE_TIME to dateAsText))
+                putExtra(EXTRAS_DATE_TIME, dateAsText)
+            }.also {
+                startActivity(it)
             }
-            startActivity(intent)
+
         }
 
         // Неявный системный Intent
         binding.cmButton.setOnClickListener {
-            val intent = Intent().apply {
+            Intent().apply {
                 action = ACTION_SEND
                 putExtra(Intent.EXTRA_TEXT, dateAsText)
                 type = "text/plain"
+            }.also {
+                startActivity(it)
             }
-            startActivity(intent)
+
         }
 
         // Вызов активности для получение результата - устаревший способ
         binding.reButton.setOnClickListener {
-            val intent = Intent().apply {
+            Intent().apply {
                 setClass(this@MainActivity, RequestDateTimeActivity::class.java)
                 replaceExtras(bundleOf(EXTRAS_DATE_TIME to dateAsText))
+            }.also {
+                startActivityForResult(it, REQUEST_DATE_TIME)
             }
-            startActivityForResult(intent, REQUEST_DATE_TIME)
+
         }
 
-        // Вызов активности для получение результата - актуальный способ
         binding.re2Button.setOnClickListener {
-            getContent.launch(dateAsText)
-            //getSystemContent.launch("image/*")
+            getDateTimeContent.launch(dateAsText)
+        }
+
+        binding.cm2Button.setOnClickListener {
+            getSystemContent.launch("image/*")
         }
     }
 
-    private val getContent = registerForActivityResult(DateTimeContract()) {
+    private val getDateTimeContent = registerForActivityResult(DateTimeContract()) {
         showToast(it.toString())
     }
 
     private val getSystemContent = registerForActivityResult(ActivityResultContracts.GetContent()) {
         showToast(it.toString())
+        //1
+        // val bitmap = MediaStore.Images.Media.getBitmap(this.contentResolver, it)
+        // 2.
+        // val source = ImageDecoder.createSource(this.contentResolver, selectedPhotoUri)
+        // ImageDecoder.decodeBitmap(source)
+        // 3.
+        // imageView.setImageURI(contentURI);
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

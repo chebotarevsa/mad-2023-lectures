@@ -4,22 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/exButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/explicit_intents"
         app:layout_constraintBottom_toTopOf="@id/imButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_chainStyle="packed"
-        />
+        app:layout_constraintVertical_chainStyle="packed" />
+
     <Button
         android:id="@+id/imButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/implicit_intents"
         app:layout_constraintBottom_toBottomOf="@id/cmButton"
@@ -29,7 +30,7 @@
 
     <Button
         android:id="@+id/cmButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/system_intents"
         app:layout_constraintBottom_toBottomOf="@id/reButton"
@@ -39,7 +40,7 @@
 
     <Button
         android:id="@+id/reButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/result_intent"
         app:layout_constraintBottom_toBottomOf="@id/re2Button"
@@ -49,12 +50,22 @@
 
     <Button
         android:id="@+id/re2Button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/contract_intent"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/cm2Button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/reButton" />
+
+    <Button
+        android:id="@+id/cm2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System Contract Intent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/re2Button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
