@@ -16,7 +16,7 @@
 1. [Лабораторная работа №1. "Основы работы с Git и GitHub. Установка и настройка среды разработки Android Studio"](https://github.com/chebotarevsa/mad-2023-lab01)
 2. [Лабораторная работа №2. "Создание базового приложения. TextView и ImageView. Локализация"](https://github.com/chebotarevsa/mad-2023-lab02)
 3. [Лабораторная работа №3. "Базовые UI-компоненты. Жизненный цикл Activity. Навигация на основе Activity, явный Intent"](https://github.com/chebotarevsa/mad-2023-lab03)
-4. [Лабораторная работа №4. "Списки. ListView,Spiner,RecyclerView"] (https://github.com/chebotarevsa/mad-2023-lab04)
+4. [Лабораторная работа №4. "Списки. ListView,Spiner,RecyclerView"](https://github.com/chebotarevsa/mad-2023-lab04)
    
 ##  Курсовые работы
 
