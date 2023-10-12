@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AdvancedNavigation</string>
+    <string name="task_info">Task Info</string>
+    <string name="second_activity_new_task">Second Activity New Task</string>
+    <string name="second_activity_current_task">Second Activity Current Task</string>
+    <string name="nav_to_fourth">Nav to Fourth</string>
+    <string name="nav_to_third">Nav to Third</string>
+</resources>
