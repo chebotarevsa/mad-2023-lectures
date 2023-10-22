@@ -5,7 +5,7 @@ import com.github.javafaker.Faker
 
 object UserRepository {
     private val faker = Faker()
-    private val _users = (1..20).map {
+    private val _users = (1..20000).map {
         User(
             id = it.toLong(),
             name = faker.name().firstName(),
