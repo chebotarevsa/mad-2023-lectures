@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SimpleNavigationFragment</string>
+    <string name="green_fragment">Green Fragment</string>
+    <string name="red_fragment">Red Fragment</string>
+    <string name="input_text">Input Text</string>
+    <string name="go_to_red_n_fragment">Go To Red\n Fragment</string>
+    <string name="go_to_green_n_fragment">Go To Green\n Fragment</string>
+</resources>

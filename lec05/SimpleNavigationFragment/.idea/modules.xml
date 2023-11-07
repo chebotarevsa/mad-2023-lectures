@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleNavigationFragment.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleNavigationFragment.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SimpleNavigationFragment.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SimpleNavigationFragment.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SimpleNavigationFragment.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SimpleNavigationFragment.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SimpleNavigationFragment.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SimpleNavigationFragment.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SimpleNavigationFragment.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SimpleNavigationFragment.app.unitTest.iml" />
     </modules>
   </component>

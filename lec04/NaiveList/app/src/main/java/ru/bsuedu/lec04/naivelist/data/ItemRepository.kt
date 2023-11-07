@@ -4,7 +4,7 @@ import android.graphics.Color
 import kotlin.random.Random
 
 object ItemRepository {
-    private val _data = (1..5000).map { createNew(it) }.toMutableList()
+    private val _data = (1..100).map { createNew(it) }.toMutableList()
 
     val data
         get() = _data.toList()

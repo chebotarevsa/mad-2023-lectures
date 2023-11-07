@@ -22,7 +22,7 @@ class TheMostNaiveListActivity : AppCompatActivity() {
 
     private fun buildList(parent: ViewGroup, resource: Int, textViewId: Int, data: List<ItemModel>) {
         data.map { dataItem ->
-            val listItem = layoutInflater.inflate(resource, parent, false)
+            val listItem = layoutInflater.inflate(R.layout.item_view, parent, false)
             val text = listItem.findViewById<TextView>(textViewId)
             text.text = dataItem.name
             text.setTextColor(dataItem.color)
