@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">SimpleNavigationFragment</string>
+    <string name="go_to_green_n_fragment">Go To Green\n Fragment</string>
+    <string name="go_to_red_n_fragment">Go To Red\n Fragment</string>
+    <string name="green_fragment">Green Fragment</string>
+    <string name="input_text">Input Text</string>
+    <string name="red_fragment">Red Fragment</string>
+    <style name="Base.Theme.SimpleNavigationFragment" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.SimpleNavigationFragment" parent="Base.Theme.SimpleNavigationFragment"/>
+</resources>

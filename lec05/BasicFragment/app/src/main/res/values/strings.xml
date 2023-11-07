@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BasicFragment</string>
+    <string name="fragment_by_name">Fragment By Name</string>
+    <string name="fragment_by_manager">Fragment By Manager</string>
+    <string name="fragment_with_lifecycle">Fragment with Lifecycle</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="simple_text">Simply Text</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lifecycle">Lifecycle</string>
+</resources>

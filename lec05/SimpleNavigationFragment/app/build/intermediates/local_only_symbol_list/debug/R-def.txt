@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id bn_go_to_green
+id bn_go_to_red
+id container
+id et_input
+id tv_green_text
+id tv_red_text
+layout activity_main
+layout fragment_green
+layout fragment_main
+layout fragment_red
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string go_to_green_n_fragment
+string go_to_red_n_fragment
+string green_fragment
+string input_text
+string red_fragment
+style Base.Theme.SimpleNavigationFragment
+style Theme.SimpleNavigationFragment
+xml backup_rules
+xml data_extraction_rules

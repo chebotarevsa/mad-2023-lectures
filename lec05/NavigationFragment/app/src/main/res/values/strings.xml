@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NavigationFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="input_text">Input Text</string>
+    <string name="go_to_red_fragment">Go To Red\n Fragment</string>
+    <string name="go_to_green_fragment">Go To Green\n Fragment</string>
+    <string name="green_fragment">Green Fragment</string>
+    <string name="red_fragment">Red Fragment</string>
+</resources>
