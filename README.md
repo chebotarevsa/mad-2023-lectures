@@ -1,14 +1,14 @@
 # Разработка мобильных приложений
 
 ## Лекции
-1. [История мобильных операционных систем. Архитектура Android](lec01)
-2. [Структура Android проекта. Визуальные компоненты (View). Компоновщики (View Group)](lec02)
+1. [История мобильных операционных систем. Архитектура Android.](lec01)
+2. [Структура Android проекта. Визуальные компоненты (View). Компоновщики (View Group).](lec02)
 3. [Активности (Activity). Жизненный цикл активности. Навигация на основе активностей.](lec03)
-4. [Списки. ListView. Spinner. RecyclerView](lec04)
-5. Фрагменты (Fragment). Жизненный цикл фрагмента. Навигация на основе фрагментов.
-6. Архитектурные компоненты (Lifecycles, LiveData, ViewModel). MVVM. Многопоточность. Корутины
-7. Персистентность. SharedPreferences. База данных SQLite. Room Persistence
-8. Сеть. Http запросы. JSON. OkHttpClient. Библиотека Retrofit
+4. [Списки. ListView. Spinner. RecyclerView.](lec04)
+5. [Фрагменты (Fragment). Жизненный цикл фрагмента. Навигация на основе фрагментов.](lec05)
+6. Архитектурные компоненты (Lifecycles, LiveData, ViewModel). MVVM. Многопоточность. Корутины.
+7. Персистентность. SharedPreferences. База данных SQLite. Room Persistence.
+8. Сеть. Http запросы. JSON. OkHttpClient. Библиотека Retrofit.
 9. Jetpack Compose
 
 ## Лабораторные работы
