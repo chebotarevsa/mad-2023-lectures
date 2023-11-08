@@ -16,5 +16,9 @@ class FragmentByManagerActivity : AppCompatActivity() {
             .beginTransaction()
             .add(R.id.fr_manager_container, ManagerFragment.newInstance("test1", "test2"))
             .commit()
+
+//        val fragment: ManagerFragment =
+//            supportFragmentManager.findFragmentById(R.id.fr_manager_container) as ManagerFragment
+
     }
 }

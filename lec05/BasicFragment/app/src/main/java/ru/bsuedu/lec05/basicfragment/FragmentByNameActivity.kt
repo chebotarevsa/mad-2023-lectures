@@ -7,5 +7,6 @@ class FragmentByNameActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fragment_by_name)
+
     }
 }

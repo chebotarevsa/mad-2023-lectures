@@ -31,6 +31,11 @@ class LifecycleFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_lifecycle, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        Log.w(TAG, "Fragment - onViewCreated")
+    }
+
     override fun onDestroyView() {
         super.onDestroyView()
         Log.w(TAG, "Fragment - onDestroyView")
@@ -69,7 +74,7 @@ class LifecycleFragment : Fragment() {
     override fun onSaveInstanceState(outState: Bundle) {
         outState.putInt("AA", value)
         super.onSaveInstanceState(outState)
-        Log.w(TAG, "Fragment -onSaveInstanceState $outState")
+        Log.w(TAG, "Fragment - onSaveInstanceState $outState")
     }
 
 

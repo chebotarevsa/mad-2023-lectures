@@ -12,7 +12,7 @@ class SimpleFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
+        //activity - доступ к активити
         return inflater.inflate(R.layout.fragment_simple, container, false)
     }
 
