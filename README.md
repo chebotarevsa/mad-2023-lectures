@@ -6,7 +6,7 @@
 3. [Активности (Activity). Жизненный цикл активности. Навигация на основе активностей.](lec03)
 4. [Списки. ListView. Spinner. RecyclerView.](lec04)
 5. [Фрагменты (Fragment). Жизненный цикл фрагмента. Навигация на основе фрагментов.](lec05)
-6. Архитектурные компоненты (Lifecycles, LiveData, ViewModel). MVVM. Многопоточность. Корутины.
+6. [Архитектурные компоненты (Lifecycles, LiveData, ViewModel). Архитектурный паттерн MVVM.](lec06)
 7. Персистентность. SharedPreferences. База данных SQLite. Room Persistence.
 8. Сеть. Http запросы. JSON. OkHttpClient. Библиотека Retrofit.
 9. Jetpack Compose
@@ -18,6 +18,7 @@
 3. [Лабораторная работа №3. "Базовые UI-компоненты. Жизненный цикл Activity. Навигация на основе Activity, явный Intent"](https://github.com/chebotarevsa/mad-2023-lab03)
 4. [Лабораторная работа №4. "Списки. ListView,Spiner,RecyclerView"](https://github.com/chebotarevsa/mad-2023-lab04)
 5. [Лабораторная работа №5. "Фрагменты (Fragment). Навигация на основе Фрагментов"](https://github.com/chebotarevsa/mad-2023-lab05)
+6. [Лабораторная работа №6 "Архитектурные компоненты (Lifecycles, LiveData, ViewModel). Архитектурный паттерн MVVM"](https://github.com/chebotarevsa/mad-2023-lab06)
    
 ##  Курсовые работы
 
