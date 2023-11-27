@@ -7,9 +7,8 @@
 4. [Списки. ListView. Spinner. RecyclerView.](lec04)
 5. [Фрагменты (Fragment). Жизненный цикл фрагмента. Навигация на основе фрагментов.](lec05)
 6. [Архитектурные компоненты (Lifecycles, LiveData, ViewModel). Архитектурный паттерн MVVM.](lec06)
-7. Персистентность. SharedPreferences. База данных SQLite. Room Persistence.
-8. Сеть. Http запросы. JSON. OkHttpClient. Библиотека Retrofit.
-9. Jetpack Compose
+7. [Персистентность. SharedPreferences. База данных SQLite. Room Persistence](lec07)
+8. [Сеть. Http запросы. JSON. OkHttpClient. Библиотека Retrofit.](lec08)
 
 ## Лабораторные работы
 
@@ -19,6 +18,8 @@
 4. [Лабораторная работа №4. "Списки. ListView,Spiner,RecyclerView"](https://github.com/chebotarevsa/mad-2023-lab04)
 5. [Лабораторная работа №5. "Фрагменты (Fragment). Навигация на основе Фрагментов"](https://github.com/chebotarevsa/mad-2023-lab05)
 6. [Лабораторная работа №6 "Архитектурные компоненты (Lifecycles, LiveData, ViewModel). Архитектурный паттерн MVVM"](https://github.com/chebotarevsa/mad-2023-lab06)
+7. [Лабораторная работа №7 "Персистентность. База данных SQLite. Room Persistence"](https://github.com/chebotarevsa/mad-2023-lab07)
+8. [Лабораторная работа №8 "Сеть. Http запросы. JSON. OkHttpClient. Библиотека Retrofit"](https://github.com/chebotarevsa/mad-2023-lab08)
    
 ##  Курсовые работы
 
@@ -35,13 +36,12 @@ https://github.com/chebotarevsa/mad-2023-course
 8. Списки. RecyclerView
 9. Фрагменты (Fragment). Жизненный цикл фрагмента.
 10. Navigation component. Навигация на основе фрагментов.
-11. Архитектурные компоненты (Lifecycles, LiveData, ViewModel)
-12. Многопоточность. Handler, Looper, Main Thread
-13. MVVM. Элементы чистой архитектуры
-14. Корутины
-15. Персистентность. SharedPreferences
-16. Персистентность. Room Persistence
-17. Http запросы. JSON.
-18. Http запросы. XML.
-19. Библиотека Retrofit
-20. Compose элементы
+11. Архитектурные компоненты - Lifecycles
+12. Архитектурные компоненты - LiveData
+13. Архитектурные компоненты - ViewModel
+15. Архитектурный паттерн MVVM
+16. Персистентность. SharedPreferences
+17. Персистентность. Room Persistence
+18. Http запросы. JSON.
+19. Http запросы. XML.
+20. Библиотека Retrofit
