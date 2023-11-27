@@ -14,6 +14,7 @@ class RedFragment : Fragment() {
 
     private val args by navArgs<RedFragmentArgs>()
     private val message by lazy { args.messsage }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }

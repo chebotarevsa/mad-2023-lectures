@@ -48,7 +48,7 @@ class LifecycleFragment : Fragment() {
 
     override fun onStop() {
         super.onStop()
-        Log.w(TAG, "Fragment - onStart")
+        Log.w(TAG, "Fragment - onStop")
     }
 
     override fun onResume() {

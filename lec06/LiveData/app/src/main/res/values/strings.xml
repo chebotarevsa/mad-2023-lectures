@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LiveData</string>
+    <string name="live_data">Live Data</string>
+    <string name="live_date_map">Live Date Map</string>
+    <string name="live_date_mediator">Live date mediator</string>
+    <string name="update">Update</string>
+</resources>

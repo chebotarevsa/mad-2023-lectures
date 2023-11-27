@@ -16,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_simple"
-        android:name="ru.bsuedu.lec05.basicfragment.SimpleFragment"
+        android:name="ru.bsuedu.lec05.basicfragment.MyFistFragment"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

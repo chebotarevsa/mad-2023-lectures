@@ -29,7 +29,6 @@ class ManagerFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
         _binding = FragmentManagerBinding.inflate(inflater, container, false)
         binding.text1.text = param1
         binding.text2.text = param2

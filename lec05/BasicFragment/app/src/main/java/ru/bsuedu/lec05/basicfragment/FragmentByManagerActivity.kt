@@ -11,10 +11,9 @@ class FragmentByManagerActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityFragmentByManagerBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         supportFragmentManager
             .beginTransaction()
-            .add(R.id.fr_manager_container, ManagerFragment.newInstance("test1", "test2"))
+            .add(R.id.fr_manager_container, ManagerFragment.newInstance("test13435345 В", "test2"))
             .commit()
 
 //        val fragment: ManagerFragment =
