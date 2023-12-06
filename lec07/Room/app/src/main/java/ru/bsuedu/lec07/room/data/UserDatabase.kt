@@ -19,7 +19,7 @@ abstract class UserDatabase : RoomDatabase() {
                     instance = Room.databaseBuilder(
                         ctx,
                         UserDatabase::class.java, "database-name"
-                    ).allowMainThreadQueries().build()
+                    ).build()
                     db = instance
                 }
                 return instance

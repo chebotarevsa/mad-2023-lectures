@@ -17,7 +17,7 @@ class SimpleViewModelFragment() : Fragment() {
     private val viewModel: SimpleViewModel by viewModels() {  SimpleViewModel.Factory }
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        ///viewModel = ViewModelProvider(this , SimpleViewModel.Factory).get(SimpleViewModel::class.java)
+        //viewModel = ViewModelProvider(this , SimpleViewModel.Factory).get(SimpleViewModel::class.java)
         super.onCreate(savedInstanceState)
     }
 

@@ -9,10 +9,5 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val db = UserDatabase.getInstance(this)
-        db.userDao().insertAll(User("1","Sergey", "Chebotarev"))
-        val all = db.userDao().getAll()
-        println(all)
     }
 }
