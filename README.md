@@ -43,6 +43,6 @@ https://github.com/chebotarevsa/mad-2023-course
 15. Архитектурный паттерн MVVM
 16. Персистентность. SharedPreferences
 17. Персистентность. Room Persistence
-18. Http запросы. JSON.
-19. Http запросы. XML.
+18. Http запросы. Библиотека OkHttp. JSON.
+19. Http запросы. Библиотека OkHttp. XML.
 20. Библиотека Retrofit
