@@ -35,10 +35,11 @@ https://github.com/chebotarevsa/mad-2023-course
 7. Списки. ListView
 8. Списки. RecyclerView
 9. Фрагменты (Fragment). Жизненный цикл фрагмента.
-10. Navigation component. Навигация на основе фрагментов.
-11. Архитектурные компоненты - Lifecycles
-12. Архитектурные компоненты - LiveData
-13. Архитектурные компоненты - ViewModel
+10. Менеджер фрагментов (Fragment Manager). Навигация на основе фрагментов.
+11. Navigation component. Навигация на основе фрагментов.
+12. Архитектурные компоненты - Lifecycles
+13. Архитектурные компоненты - LiveData
+14. Архитектурные компоненты - ViewModel
 15. Архитектурный паттерн MVVM
 16. Персистентность. SharedPreferences
 17. Персистентность. Room Persistence
